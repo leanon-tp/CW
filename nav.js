@@ -12,16 +12,16 @@ document.body.insertAdjacentHTML("beforeend", `
       <span class="sidebar-title">選單</span>
       <button class="sidebar-close" aria-label="關閉選單">✕</button>
     </div>
-    <a href="index.html">首頁</a>
-    <a href="about.html">關於我</a>
-    <a href="resume.html">個人履歷</a>
-    <a href="research.html">研究</a>
+    <a href="index.html"><img class="nav-rabbit" src="rabbit/1.png" alt="">首頁</a>
+    <a href="about.html"><img class="nav-rabbit" src="rabbit/2.png" alt="">關於我</a>
+    <a href="resume.html"><img class="nav-rabbit" src="rabbit/3.png" alt="">個人履歷</a>
+    <a href="research.html"><img class="nav-rabbit" src="rabbit/4.png" alt="">研究</a>
     <details class="side-group">
-      <summary>更多</summary>
+      <summary><img class="nav-rabbit" src="rabbit/5.png" alt="">更多</summary>
       <a href="activities.html">活動經歷</a>
       <a href="gallery.html">相簿</a>
     </details>
-    <a href="contact.html">聯絡我</a>
+    <a href="contact.html"><img class="nav-rabbit" src="rabbit/6.png" alt="">聯絡我</a>
   </aside>
 `);
 
